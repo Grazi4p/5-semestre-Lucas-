@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com Estilos de Borda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Tabela com Estilos de Borda</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>30</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+table.dotted {
+    border-style: dotted;
+}
+
+table.dashed {
+    border-style: dashed;
+}
+
+table.solid {
+    border-style: solid;
+}

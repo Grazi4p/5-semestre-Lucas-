@@ -1,0 +1,27 @@
+// Função simples para mudar a cor da primeira linha
+function alterarCorLinha() {
+  const linha = document.getElementById('linha1');
+  linha.classList.toggle('highlight');
+}
+
+// Função que recebe um ID como parâmetro
+function alterarCorPorId(id) {
+  const elemento = document.getElementById(id);
+  elemento.classList.toggle('highlight');
+}
+
+// Eventos de mouse
+function mouseOver(elemento) {
+  elemento.style.backgroundColor = '#f0f0f0';
+}
+
+function mouseOut(elemento) {
+  elemento.style.backgroundColor = '';
+}
+
+// innerHTML + alert e console
+function exibirNome(elemento) {
+  const nome = elemento.innerText;
+  alert("Nome do time: " + nome);
+  console.log("Nome do time:", nome);
+}

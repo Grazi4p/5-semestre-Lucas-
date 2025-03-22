@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+        .primeiro {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Classificação do Campeonato Brasileiro 2024</h2>
+    <table>
+        <tr>
+            <th>Imagem</th>
+            <th>Posição</th>
+            <th>Time</th>
+            <th>Pontos</th>
+            <th>Qtd. Jogos</th>
+            <th>Qtd. Vitórias</th>
+            <th>Qtd. Derrotas</th>
+        </tr>
+        <tr class="primeiro">
+            <td><img src="botafogo.png" alt="Botafogo" width="30"></td>
+            <td>1</td>
+            <td><a href="https://www.botafogo.com.br" target="_blank">Botafogo</a></td>
+            <td>79</td>
+            <td>10</td>
+            <td>9</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td><img src="palmeiras.png" alt="Palmeiras" width="30"></td>
+            <td>2</td>
+            <td><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras</a></td>
+            <td>73</td>
+            <td>10</td>
+            <td>8</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="flamengo.png" alt="Flamengo" width="30"></td>
+            <td>3</td>
+            <td><a href="https://www.flamengo.com.br" target="_blank">Flamengo</a></td>
+            <td>70</td>
+            <td>10</td>
+            <td>7</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+</html>

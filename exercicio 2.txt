@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <p><b>Negrito</b></p>
+    <p><u>Sublinhado</u></p>
+    <p><i>Itálico</i></p>
+    <p>Texto com <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+
+    <h2>Trechos formatados</h2>
+    <p><b>1. Beethoven:</b> <b>5ª Symphony</b> – Música de suspense e terror clássica. Aparecia no Mais Você quando a Ana Maria Braga provava uma comida. Apareceu também no filme: “<i>Se eu fosse você</i>” entre outras participações.</p>
+    
+    <p><b>2. Tchaikovsky:</b> <b>1812 Overture</b> – <i>Música de fanfarra</i>, sinceramente, acho que não é tão conhecida assim, mas em todo caso está aqui marcando presença.</p>
+</body>
+</html>
